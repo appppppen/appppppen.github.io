@@ -1,0 +1,103 @@
+ManifestFileVersion: 0
+CRC: 1357957505
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: book/jinganshijinbao.assetbundle
+      Dependencies: {}
+    Info_1:
+      Name: book/n2key.assetbundle
+      Dependencies: {}
+    Info_2:
+      Name: book/nacl_cell.assetbundle
+      Dependencies: {}
+    Info_3:
+      Name: book/yc4h10.assetbundle
+      Dependencies: {}
+    Info_4:
+      Name: book/nh3_hkey.assetbundle
+      Dependencies: {}
+    Info_5:
+      Name: book/heshimoxing.assetbundle
+      Dependencies: {}
+    Info_6:
+      Name: book/yellowangle.assetbundle
+      Dependencies: {}
+    Info_7:
+      Name: book/p.assetbundle
+      Dependencies: {}
+    Info_8:
+      Name: prefabs/abstract.assetbundle
+      Dependencies: {}
+    Info_9:
+      Name: prefabs/asia.assetbundle
+      Dependencies: {}
+    Info_10:
+      Name: prefabs/castle.assetbundle
+      Dependencies: {}
+    Info_11:
+      Name: prefabs/cave.assetbundle
+      Dependencies: {}
+    Info_12:
+      Name: prefabs/desert.assetbundle
+      Dependencies: {}
+    Info_13:
+      Name: prefabs/farm.assetbundle
+      Dependencies: {}
+    Info_14:
+      Name: prefabs/fjord.assetbundle
+      Dependencies: {}
+    Info_15:
+      Name: prefabs/forest.assetbundle
+      Dependencies: {}
+    Info_16:
+      Name: prefabs/full.assetbundle
+      Dependencies: {}
+    Info_17:
+      Name: prefabs/graveyard.assetbundle
+      Dependencies: {}
+    Info_18:
+      Name: prefabs/island.assetbundle
+      Dependencies: {}
+    Info_19:
+      Name: prefabs/jungle.assetbundle
+      Dependencies: {}
+    Info_20:
+      Name: prefabs/moba.assetbundle
+      Dependencies: {}
+    Info_21:
+      Name: prefabs/nature.assetbundle
+      Dependencies: {}
+    Info_22:
+      Name: prefabs/ruins.assetbundle
+      Dependencies: {}
+    Info_23:
+      Name: prefabs/swamp.assetbundle
+      Dependencies: {}
+    Info_24:
+      Name: prefabs/tundra.assetbundle
+      Dependencies: {}
+    Info_25:
+      Name: book/earth.assetbundle
+      Dependencies: {}
+    Info_26:
+      Name: book/feijiemeiranseti.assetbundle
+      Dependencies: {}
+    Info_27:
+      Name: book/sanlengzhui.assetbundle
+      Dependencies: {}
+    Info_28:
+      Name: book/shenjingyuan.assetbundle
+      Dependencies: {}
+    Info_29:
+      Name: book/shan.assetbundle
+      Dependencies: {}
+    Info_30:
+      Name: book/solarsystem.assetbundle
+      Dependencies: {}
+    Info_31:
+      Name: book/liudabankuai.assetbundle
+      Dependencies: {}
+    Info_32:
+      Name: book/cube.assetbundle
+      Dependencies: {}

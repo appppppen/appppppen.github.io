@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 1158537074
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f6e0ab150269b126ca8b7e644148a878
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0069808574076e0242dba24471e8b55f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: cbec4143b25f3e74ca9e9bdb6b8d695e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f2a7c7a4475867f45b98c6a76fc859cb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+Assets:
+- Assets/Model/AxeyWorks/PolyWorks/Prefabs/Nature.prefab
+Dependencies: []

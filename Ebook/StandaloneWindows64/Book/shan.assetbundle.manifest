@@ -1,0 +1,64 @@
+ManifestFileVersion: 0
+CRC: 2586719954
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d38b0c15ddc708417ffaf48635bf7f7a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 39715a513945014e9133f1839387978b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -113659843, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cbec4143b25f3e74ca9e9bdb6b8d695e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f2a7c7a4475867f45b98c6a76fc859cb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9e68ecaa5d17a6044bebcd5aa4d22314, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Model/MaterialProject/Prefabs/Book/shan.prefab
+Dependencies: []

@@ -1,0 +1,56 @@
+ManifestFileVersion: 0
+CRC: 3152341126
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 68c836ee71090839c87b05be8e578b99
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 297ea73e6da39c990aa9e5e6c6789144
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 2109663825, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cbec4143b25f3e74ca9e9bdb6b8d695e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f2a7c7a4475867f45b98c6a76fc859cb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0798a0cee978cff46af2cda2f8ce12cc, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Model/MaterialProject/Prefabs/Book/yc4h10.prefab
+Dependencies: []
