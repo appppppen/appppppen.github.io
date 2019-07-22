@@ -1,3 +1,11 @@
 {
-    "title": "The impact of terrain on human activities"
+    "title": "The impact of terrain on human activities",
+    "text":[
+        {  "title": "聚落"  },
+        {   "title": "交通线分布" },
+        {   "title": "运输方式"},
+        {   "title": "农业" },
+        {   "title": "机械化程度" },
+        {   "title": "灾害类型" }
+    ]
 }
