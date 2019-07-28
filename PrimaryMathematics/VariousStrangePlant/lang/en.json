@@ -2,30 +2,69 @@
     "title": "Strange plant",
     "text":[
         {  "title": "Rafflesia","pinyin":"", 
+            "titlewithpinyin":[
+                {"title": "Rafflesia","pinyin":""}
+            ],
             "desc": "Dawanghua, known as the world's largest flower. The color is colorful and has a pungent odor." },
         {   "title": "African egret flower","pinyin":"", 
+            "titlewithpinyin":[
+                {"title": "African egret flower","pinyin":""}
+            ],
             "desc": "Growing up in the deserts of South Africa, the flowers smell bad and can attract carrion beetles." },
         {   "title": "Voodoo","pinyin":"", 
+            "titlewithpinyin":[
+                {"title": "Voodoo","pinyin":""}
+            ],
             "desc": "The flowers are stinky like carrion, and the leaves are like leaves, like dragons or snakes entrenched in the flames." },
         {   "title": "Giant konjac","pinyin":"", 
+            "titlewithpinyin":[
+                {"title": "Giant konjac","pinyin":""}
+            ],
             "desc": "Giant konjac can release the smell of filth, some odors have a unique urinary smell, some smell like carrion, and one has a butyric acid smell. Therefore, it is often called \"corpse smell\"." },
         {   "title": "One hundred years old","pinyin":"", 
+            "titlewithpinyin":[
+                {"title": "One hundred years old","pinyin":""}
+            ],
             "desc": "One hundred years old has only two leaves in his life. The average life expectancy can reach hundreds of years, and some of them can even reach 2000, so this is the name." },
         {   "title": "Egret flower","pinyin":"", 
+            "titlewithpinyin":[
+                {"title": "Egret flower","pinyin":""}
+            ],
             "desc": "The egret flower is shaped like a winged egret, very beautiful. Due to excessive human picking, it is already an endangered plant." },
         {   "title": "Nepenthes","pinyin":"", 
+            "titlewithpinyin":[
+                {"title": "Nepenthes","pinyin":""}
+            ],
             "desc": "Nepenthes has a pitching cage with a lid on the mouth of the cage, hence the name. If the insect slips into the bottle, it will be drowned by the liquid secreted from the bottom of the bottle." },
         {   "title": "Tiger must","pinyin":"", 
+            "titlewithpinyin":[
+                {"title": "Tiger must","pinyin":""}
+            ],
             "desc": "The tiger must look like a tiger's face, hence the name \"Tiger Bear.\"" },
         {   "title": "Cape of Good Hope","pinyin":"", 
+            "titlewithpinyin":[
+                {"title": "Cape of Good Hope","pinyin":""}
+            ],
             "desc": "Cape of Good Hope is known as the world's top 90 species of carnivorous plants. It is known as the \"king of hunting\" in the plant world." },
         {   "title": "Venus Flytrap","pinyin":"", 
+            "titlewithpinyin":[
+                {"title": "Venus Flytrap","pinyin":""}
+            ],
             "desc": "Venus Flytrap has 3 bristles. Once it is touched more than 3 times in 20 seconds, the leaves will close in one second and capture the prey." },
         {   "title": "Monkey face dragon","pinyin":"", 
+            "titlewithpinyin":[
+                {"title": "Monkey face dragon","pinyin":""}
+            ],
             "desc": "Because of the monkey face, it is called \"monkey face orchid\"." },
         {   "title": "Italian red door","pinyin":"", 
+            "titlewithpinyin":[
+                {"title": "Italian red door","pinyin":""}
+            ],
             "desc": "Because the shape of the whole flower is like a man wearing a straw hat, also known as the Italian man Lan." },
         {   "title": "Lip flower","pinyin":"", 
+            "titlewithpinyin":[
+                {"title": "Lip flower","pinyin":""}
+            ],
             "desc": "A flower named after its shape resembling sexy and seductive lips." }
     ]
 }
