@@ -1,5 +1,6 @@
 {
     "title": "Solar elevation angle",
     "btntext1": "angle",
-    "btntext2": "noon angle"
+    "btntext2": "noon angle",
+    "tip": "The midday sun elevation angle is the solar elevation angle at 12 o'clock in the local area and the maximum value of the solar altitude angle during the day."
 }
