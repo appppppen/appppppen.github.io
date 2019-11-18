@@ -1,0 +1,5 @@
+{
+    "title": "The inner corner of the polygon add",
+    "btntext": [ "point", "side", "inner"],
+    "text": [ "归纳n", "辅助线条数：", "条", "三角形个数：", "个", "内角和："]
+}
