@@ -1,0 +1,31 @@
+{
+    "title": "Japan's import and export commodities and trading countries",
+    "btntext": [
+                 {
+                     "title": "import",
+                     "cell": [
+                         "oil",
+                         "copper ore",
+                         "cotton",
+                         "coal",
+                         "mechanical",
+                         "Iron ore",
+                         "wood"
+                     ]
+                 },
+                 {
+                     "title": "export",
+                     "cell": [
+                         "Steel",
+                         "ship",
+                         "car",
+                         "Electrical appliance",
+                         "motorcycle"
+                     ]
+                 }
+             ],
+    "text": [
+        "Japan's economy is developed, it has high demand for industrial raw materials and fuels, but domestic resources are insufficient. Therefore, Japan mainly imports petroleum, coal, iron ore, copper ore, wood, corn, wool, and the world. Raw materials such as cotton.",
+        "Japan's technology is developed and shipping is convenient, but the domestic market is relatively small, so industrial manufactured products are mainly sold to the world. Main exports: machinery, electrical appliances, automobiles, ships, etc."
+    ]
+}
