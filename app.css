@@ -25,10 +25,10 @@
                         				vertical-align: -webkit-baseline-middle;
                         				color: #333;
                         			}
-                        						.ipText{
-                                    			width: 90%;
-                                    			height: 50px;
-                                    			}
+            .ipText{
+                width: 90%;
+                height: 50px;
+            }
 			#warp a,
 			#warp a:hover,
 			#warp a:link,

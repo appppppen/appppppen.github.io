@@ -1,4 +1,4 @@
 {
     "title": "Ordered pair",
-    "btntext": ["columns is first","rows is first","table","show number"]
+    "btntext": ["(columns,rows)","(rows,columns)","table","show number","Column","row"]
 }
