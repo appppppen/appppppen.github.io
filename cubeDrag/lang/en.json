@@ -1,0 +1,11 @@
+{
+    "title": "View Stereo Graphics",
+    "btntext": [
+        "Looking from above",
+        "Looking from below",
+        "Looking from left",
+        "Looking from right",
+        "Looking from front",
+        "Looking from behind"
+    ]
+}
