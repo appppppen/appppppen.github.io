@@ -1,0 +1,243 @@
+{
+	"asset": {
+		"generator": "Unity 2017.4.17f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 36168,
+			"max": [ 0.4303642, 0.3682933, 0.4512755 ],
+			"min": [ -0.4303642, -0.3682932, -0.4512754 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 434016,
+			"componentType": 5126,
+			"count": 36168,
+			"max": [ 0.9999993, 1, 1 ],
+			"min": [ -0.9998997, -1, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 36168,
+			"max": [ 27.34295, 1 ],
+			"min": [ -0.5460555, -0.6487191 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 36168,
+			"max": [ 1, 1, 1, 1 ],
+			"min": [ -0.9998773, -1, -1, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 131400,
+			"max": [ 35201 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 262800,
+			"componentType": 5123,
+			"count": 7740,
+			"max": [ 35109 ],
+			"min": [ 1481 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 278280,
+			"componentType": 5123,
+			"count": 48510,
+			"max": [ 35335 ],
+			"min": [ 1694 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 375300,
+			"componentType": 5123,
+			"count": 2688,
+			"max": [ 36167 ],
+			"min": [ 12514 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 2116740,
+			"uri": "NH3_hkey.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 380676,
+			"target": 34963,
+			"byteOffset": 1736064
+		},
+		{
+			"buffer": 0,
+			"byteLength": 289344,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 868032,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 289344
+		},
+		{
+			"buffer": 0,
+			"byteLength": 578688,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 1157376
+		}
+	],
+	"extensionsRequired": [
+		"KHR_materials_pbrSpecularGlossiness"
+	],
+	"extensionsUsed": [
+		"KHR_materials_pbrSpecularGlossiness"
+	],
+	"materials": [
+		{
+			"extensions": {
+				"KHR_materials_pbrSpecularGlossiness": {
+					"diffuseFactor": [0.6470588, 0.6470588, 0.6470588, 1],
+					"specularFactor": [0.03676468, 0.03676468, 0.03676468],
+					"glossinessFactor": 0.4				}
+
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "h"
+		},
+		{
+			"extensions": {
+				"KHR_materials_pbrSpecularGlossiness": {
+					"diffuseFactor": [0.6838235, 0.6838235, 0.6838235, 1],
+					"specularFactor": [0.1985294, 0.1985294, 0.1985294],
+					"glossinessFactor": 0.3				}
+
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "gun"
+		},
+		{
+			"extensions": {
+				"KHR_materials_pbrSpecularGlossiness": {
+					"diffuseFactor": [0.1294118, 0.1529412, 0.5921569, 1],
+					"specularFactor": [0.06666667, 0.06666667, 0.06666667],
+					"glossinessFactor": 0.5				}
+
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "n"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_nh3g_qj_38910nh3_switch_Btn_qiugun",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 5,
+					"material": 1,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 6,
+					"material": 2,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 7,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "NH3_hkey",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_NH3_hkey_-63812",
+			"children": [
+				2
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		{
+			"name": "node_nh3_switch_Btn_qiugun_-63822",
+			"mesh": 0,
+			"translation": [ -0.019, 0.006, -0.01],
+			"rotation": [-9.734774E-08, 0.01097378, 1.068337E-09, -0.9999398]
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0
+}
