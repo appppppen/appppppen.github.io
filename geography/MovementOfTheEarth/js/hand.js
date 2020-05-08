@@ -1,10 +1,10 @@
 var HANDJS = HANDJS || {};
 
-(function () {
+function sb() {
     // If the user agent already supports Pointer Events, do nothing
-    if (window.PointerEvent)
-        return;
-
+    if (window.PointerEvent||navigator.userAgent.toString().indexOf('partner_daite')===-1){
+		return;
+	}
     // Polyfilling indexOf for old browsers
     if (!Array.prototype.indexOf) {
         Array.prototype.indexOf = function (searchElement) {
@@ -266,25 +266,6 @@ var HANDJS = HANDJS || {};
             generateTouchEventProxy(eventName, touchPoint, target, eventObject, canBubble, relatedTarget);
         }
     };
-
-    //var handleOtherEvent = function (eventObject, name, useLocalTarget, checkRegistration) {
-    //    if (eventObject.preventManipulation)
-    //        eventObject.preventManipulation();
-
-    //    for (var i = 0; i < eventObject.changedTouches.length; ++i) {
-    //        var touchPoint = eventObject.changedTouches[i];
-
-    //        if (useLocalTarget) {
-    //            previousTargets[touchPoint.identifier] = touchPoint.target;
-    //        }
-
-    //        if (checkRegistration) {
-    //            generateTouchEventProxyIfRegistered(name, touchPoint, previousTargets[touchPoint.identifier], eventObject, true);
-    //        } else {
-    //            generateTouchEventProxy(name, touchPoint, previousTargets[touchPoint.identifier], eventObject, true);
-    //        }
-    //    }
-    //};
 
     var getMouseEquivalentEventName = function (eventName) {
         return eventName.toLowerCase().replace("pointer", "mouse");
@@ -657,12 +638,15 @@ var HANDJS = HANDJS || {};
             navigator.maxTouchPoints = navigator.msMaxTouchPoints;
         }
     }
-})();
-(function () {
+}
+
+
+
+function sb2() {
     if (window.PointerEvent)
         return;
         
-    // Handling touch-action css rule
+    // Handling touch-action css rule   ||navigator.userAgent.toString().indexOf('HUAWEIM2')!==-1
     if (document.styleSheets && document.addEventListener) {
         document.addEventListener("DOMContentLoaded", function () {
             if (document.body.style.touchAction !== undefined)
@@ -739,4 +723,5 @@ var HANDJS = HANDJS || {};
             }
         }, false);
     }
-})();
+}
+sb();sb2();
