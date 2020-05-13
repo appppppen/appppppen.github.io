@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>TA</title>
+		<script src="./css/jquery.min.js"></script>
+		<link href=./css/app.css rel=stylesheet>
+	</head>
+	<body>
+		<center>
+			<div id="war">
+				<input type="text" class="ipText"  value="">
+				<a href="javascript:void(0);" onclick="gotoIp()">确定</a>
+			</div>
+			<div id="warp">
+				<a href="seedweet://copyLink?link=hello_world">剪贴板</a>
+				<a href="./geography/index.html">geography</a>
+				<a href="./PrimaryMathematics/index.html">PrimaryMathematics</a>
+				<a href="./math/index.html">math</a>
+				<a href="http://192.168.0.101:8080/#dev#8FD02D32B59C80536F1D84A86349802B">本地101</a>
+				<a href="http://192.168.0.102:8080/#dev#8FD02D32B59C80536F1D84A86349802B">本地102</a>
+				<a href="http://192.168.0.103:8080/#dev#8FD02D32B59C80536F1D84A86349802B">本地103</a>
+				<a href="http://192.168.0.103:8080/">本地游戏</a>
+				<a href="file:///storage/emulated/0/DCIM/dist/index.html">DCIM</a>
+			</div>
+		</center>
+		<p id="pp"></p>
+		<input id="img_input" type="file" accept="video/*" />
+		<label for="img_input"></label>
+		<div class="preview_box"></div>
+		<script type="text/javascript">
+			function addFile() {
+				location.href="seedweet://onOSSCtrlFile?type=btn_addFile&path="+obj[0];
+			}
+			function deleteFile() {
+				location.href="seedweet://onOSSCtrlFile?type=btn_deleteFile&path="+obj[0];
+			}
+			function resumeFile() {
+				location.href="seedweet://onOSSCtrlFile?type=btn_resumeFile&path="+obj[0];
+			}
+			function addFileThenStart() {
+				location.href="seedweet://onOSSCtrlFile?type=btn_addFileThenStart&path="+obj[0];
+			}
+			function cancelFile() {
+				location.href="seedweet://onOSSCtrlFile?type=btn_cancelFile&path="+obj[0];
+			}
+			// 返回文件列表
+			var obj;
+			function ReturnFilesName(str) {
+				obj = JSON.parse(str);
+				document.getElementById("pp").innerHTML += "<br/>ReturnFilesName:"+ obj[0]+" ---- "+ obj[1];
+			}
+			// 返回上传成功结果 onUploadSucceed(UploadFileInfo info)
+			function onUploadSucceed(str) {
+				document.getElementById("cc").innerHTML = "<br/>onUploadSucceed:"+ str;
+			}
+			// 返回上传失败结果 onUploadFailed(UploadFileInfo info, String code, String message)
+			function onUploadFailed(str1,str2,str3) {
+				document.getElementById("cc").innerHTML = "<br/>onUploadFailed:"+ str1;
+			}
+			// 返回上传进度 onUploadProgress(UploadFileInfo info, long uploadedSize, long totalSize)
+			function onUploadProgress(str,long2) {
+				document.getElementById("cc").innerHTML = "onUploadProgress:"+str+"="+ long2;
+			}
+			// 返回音量
+			function ListenSoundWaves(str) {
+				document.getElementById("IseVolume").innerHTML = "<br/>ReturnIseVolume:"+ str;
+			}
+			function gotoIp() {
+				let ipText = document.querySelector('.ipText');
+				window.location.href=ipText.value;
+			}
+			// 前台回调
+			function appForeground() {
+				document.getElementById("pp").innerHTML += "<br/>appForeground";
+			}
+			// 语言识别的内容回调
+			function RecognizerResultReturn(str) {
+				document.getElementById("Iat").innerHTML = "<br/>RecognizerResultReturn:" + str;
+			}
+			// 语言评测的内容回调
+			function ReturnIseResult(str) {
+				document.getElementById("Ise").innerHTML = "<br/>ReturnIseResult:" + str;
+			}
+			// 语言评测的内容回调
+			function ReturnIseUIResult(str,str2) {
+				document.getElementById("IseUI").innerHTML =str+ "<br/>file:"+str2;
+			}
+			// 返回键回调
+			function KeyCodeBackReturn() {
+				document.getElementById("pp").innerHTML += "<br/>KeyCodeBackReturn:";
+			}
+			// 返回识别回调
+			function RecognizerResultReturn(str) {
+				document.getElementById("ff").innerHTML += "<br/>RecognizerResultReturn:"+str;
+			}
+
+			function RecognizerVideo(e) {
+				var file = e.target.files[0];
+				if(!file.type.match('video.*')) {
+					return false;
+				}
+				var reader = new FileReader();
+				reader.readAsDataURL(file);
+				reader.onload = function(arg) {
+					var img = '<video class="preview" src="' + arg.target.result + '" alt="preview"  autoplay="autoplay"/>';
+					$(".preview_box").empty().append(img);
+				}
+			}
+			$("#img_input").on("change", function(e) {
+
+			});
+		</script>
+</body>
+	</html>

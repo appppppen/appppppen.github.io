@@ -1,114 +1,120 @@
-<!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta name="viewport" content="width=device-width">
-		<title>TA</title>
-		<script src="./css/jquery.min.js"></script>
-		<link href=./css/app.css rel=stylesheet>
-	</head>
-	<body>
-		<center>
-			<div id="war">
-				<input type="text" class="ipText"  value="">
-				<a href="javascript:void(0);" onclick="gotoIp()">确定</a>
-			</div>
-			<div id="warp">
-				<a href="seedweet://copyLink?link=hello_world">剪贴板</a>
-				<a href="./geography/index.html">geography</a>
-				<a href="./PrimaryMathematics/index.html">PrimaryMathematics</a>
-				<a href="./math/index.html">math</a>
-				<a href="http://192.168.0.101:8080/#dev#8FD02D32B59C80536F1D84A86349802B">本地101</a>
-				<a href="http://192.168.0.102:8080/#dev#8FD02D32B59C80536F1D84A86349802B">本地102</a>
-				<a href="http://192.168.0.103:8080/#dev#8FD02D32B59C80536F1D84A86349802B">本地103</a>
-				<a href="http://192.168.0.103:8080/">本地游戏</a>
-				<a href="file:///storage/emulated/0/DCIM/dist/index.html">DCIM</a>
-			</div>
-		</center>
-		<p id="pp"></p>
-		<input id="img_input" type="file" accept="video/*" />
-		<label for="img_input"></label>
-		<div class="preview_box"></div>
-		<script type="text/javascript">
-			function addFile() {
-				location.href="seedweet://onOSSCtrlFile?type=btn_addFile&path="+obj[0];
-			}
-			function deleteFile() {
-				location.href="seedweet://onOSSCtrlFile?type=btn_deleteFile&path="+obj[0];
-			}
-			function resumeFile() {
-				location.href="seedweet://onOSSCtrlFile?type=btn_resumeFile&path="+obj[0];
-			}
-			function addFileThenStart() {
-				location.href="seedweet://onOSSCtrlFile?type=btn_addFileThenStart&path="+obj[0];
-			}
-			function cancelFile() {
-				location.href="seedweet://onOSSCtrlFile?type=btn_cancelFile&path="+obj[0];
-			}
-			// 返回文件列表
-			var obj;
-			function ReturnFilesName(str) {
-				obj = JSON.parse(str);
-				document.getElementById("pp").innerHTML += "<br/>ReturnFilesName:"+ obj[0]+" ---- "+ obj[1];
-			}
-			// 返回上传成功结果 onUploadSucceed(UploadFileInfo info)
-			function onUploadSucceed(str) {
-				document.getElementById("cc").innerHTML = "<br/>onUploadSucceed:"+ str;
-			}
-			// 返回上传失败结果 onUploadFailed(UploadFileInfo info, String code, String message)
-			function onUploadFailed(str1,str2,str3) {
-				document.getElementById("cc").innerHTML = "<br/>onUploadFailed:"+ str1;
-			}
-			// 返回上传进度 onUploadProgress(UploadFileInfo info, long uploadedSize, long totalSize)
-			function onUploadProgress(str,long2) {
-				document.getElementById("cc").innerHTML = "onUploadProgress:"+str+"="+ long2;
-			}
-			// 返回音量
-			function ListenSoundWaves(str) {
-				document.getElementById("IseVolume").innerHTML = "<br/>ReturnIseVolume:"+ str;
-			}
-			function gotoIp() {
-				let ipText = document.querySelector('.ipText');
-				window.location.href=ipText.value;
-			}
-			// 前台回调
-			function appForeground() {
-				document.getElementById("pp").innerHTML += "<br/>appForeground";
-			}
-			// 语言识别的内容回调
-			function RecognizerResultReturn(str) {
-				document.getElementById("Iat").innerHTML = "<br/>RecognizerResultReturn:" + str;
-			}
-			// 语言评测的内容回调
-			function ReturnIseResult(str) {
-				document.getElementById("Ise").innerHTML = "<br/>ReturnIseResult:" + str;
-			}
-			// 语言评测的内容回调
-			function ReturnIseUIResult(str,str2) {
-				document.getElementById("IseUI").innerHTML =str+ "<br/>file:"+str2;
-			}
-			// 返回键回调
-			function KeyCodeBackReturn() {
-				document.getElementById("pp").innerHTML += "<br/>KeyCodeBackReturn:";
-			}
-			// 返回识别回调
-			function RecognizerResultReturn(str) {
-				document.getElementById("ff").innerHTML += "<br/>RecognizerResultReturn:"+str;
-			}
+<!DOCTYPE html><html xmlns=http://www.w3.org/1999/xhtml><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=screen-orientation content=landscape><meta name=x5-orientation content=landscape><meta name=full-screen content=yes><meta name=x5-fullscreen content=true><meta name=renderer content=webkit><meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"><title>黄赤交角与温度带</title><style>.loadingBg {
+        position: absolute;
+        z-index: 999;
+        width: 100%;
+        height: 100%;
+        background: #424156;
+        margin: 0;
+        padding: 0;
+        text-align: center;
 
-			function RecognizerVideo(e) {
-				var file = e.target.files[0];
-				if(!file.type.match('video.*')) {
-					return false;
-				}
-				var reader = new FileReader();
-				reader.readAsDataURL(file);
-				reader.onload = function(arg) {
-					var img = '<video class="preview" src="' + arg.target.result + '" alt="preview"  autoplay="autoplay"/>';
-					$(".preview_box").empty().append(img);
-				}
-			}
-			$("#img_input").on("change", function(e) {
+      }
+      .loadingBg:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+      }
+      .loadingIco {
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        vertical-align: middle;
+      }
 
-			});
-		</script>
-</body>
-	</html>
+      .ico_animation_base {
+        opacity: 0;
+        animation:loading_ani 2.60s linear  infinite;
+      }
+
+      .ico-1{
+        animation-delay: 0.5s;
+      }
+
+      .ico-2{
+         animation-delay: 0.74s;
+       }
+       .ico-3{
+         animation-delay: 0.98s;
+       }
+       .ico-4{
+
+         animation-delay: 1.22s;
+       }
+       .ico-5{
+         animation-delay: 1.46s;
+       }
+       .ico-6{
+         animation-delay: 1.7s;
+       }
+
+      /* 转圈 */
+      @keyframes loading_ani{
+        0% , 35.5%, 100%{
+          opacity: 0;
+        }
+        17% {
+          opacity: 1;
+        }
+      }
+      /*@-webkit-keyframes loading_ani{
+        0% {
+          opacity: 0;
+        }
+        62.5% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }*/</style><link rel="shortcut icon" href=./huohua.ico><script data-ad-client="ca-pub-3684685394968795" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	  <script src="./js/hand.js"></script><link href="css/TemperatureZone.css?st=70d27a35ec061cfcc526c290b785a3a1" rel=stylesheet></head><body style="padding: 0;margin: 0;"><div id=app></div><div id=loading class=loadingBg><svg class=loadingIco xmlns=http://www.w3.org/2000/svg viewBox="0 0 63.44 56.84"><defs><style>.cls-1{fill:#fe5702;fill-rule:evenodd}</style></defs><title></title><g id=图层_2 data-name="图层 2"><g id=图层_1-2 data-name="图层 1"><path class="cls-1 ico_animation_base ico-1" d=M3.95,34.95a1.33,1.33,0,0,0-1.67.62A20.11,20.11,0,0,1,1,37.6c-.25.35-.5.69-.74,1a1.33,1.33,0,0,0,.77,2.13A50.36,50.36,0,0,1,18.34,48a51.22,51.22,0,0,1,9.4,8,.34.34,0,0,0,.53-.4,58.42,58.42,0,0,0-10.8-12.64A43,43,0,0,0,3.95,34.95Z /><path class="cls-1 ico_animation_base ico-2" d=M9.09,33.52a1.54,1.54,0,0,1-.16-2.62l.89-.65c.74-.56,1.42-1.13,2-1.68a1.52,1.52,0,0,1,2.06,0A54.53,54.53,0,0,1,21.18,37,54.56,54.56,0,0,1,27.06,47.7a.33.33,0,0,1-.57.34,56.87,56.87,0,0,0-8.41-8.5A56.87,56.87,0,0,0,9.09,33.52Z /><path class="cls-1 ico_animation_base ico-3" d=M19.39,11.73a2.25,2.25,0,0,1,3.31,1.09,136.53,136.53,0,0,1,4.48,13.9,150.47,150.47,0,0,1,4.49,23.83.34.34,0,0,1-.64.16,130.91,130.91,0,0,0-11.87-21.5,120.71,120.71,0,0,0-7.61-10.09,2.25,2.25,0,0,1,.75-3.48c1.19-.57,2.41-1.2,3.67-1.9S18.31,12.41,19.39,11.73Z /><path class="cls-1 ico_animation_base ico-4" d=M26.9,2.24a1.92,1.92,0,0,1,2-2.23c1.8.13,3.73.2,5.77.2S38.42.13,40.12,0A1.8,1.8,0,0,1,42,2.15c-2.62,13.53-4.66,27.07-7.23,40.6a.34.34,0,0,1-.66,0Z /><path class="cls-1 ico_animation_base ico-5" d=M50.28,14.53A1.91,1.91,0,0,1,53,14.17q1.48,1.19,3.07,2.39t3.17,2.33a1.91,1.91,0,0,1,.22,2.94A97,97,0,0,0,45.13,39a78.22,78.22,0,0,0-7.62,14.71l-1.11,2.87a.34.34,0,0,1-.65-.12c0-7,1-15.49,6.1-27.28A75.82,75.82,0,0,1,50.28,14.53Z /><path class="cls-1 ico_animation_base ico-6" d=M57.38,32.57a1.52,1.52,0,0,1,2.31.33q.65,1,1.4,2.14c.67,1,1.35,1.87,2,2.7a1.5,1.5,0,0,1-.57,2.32A71.27,71.27,0,0,0,40.76,55a.33.33,0,0,1-.53-.39,75,75,0,0,1,8.86-13.14A93.94,93.94,0,0,1,57.38,32.57Z /></g></g></svg></div><script type=text/javascript src="js/manifest.js?a=6052d50a0afdf0254794"></script><script type=text/javascript src="js/TemperatureZone.js?a=05b3e467e89c441e1015"></script></body></html><script type=text/javascript>;
+    (function() {
+
+        handleAddListener('load', getTiming)
+
+        function handleAddListener(type, fn) {
+            if(window.addEventListener) {
+                window.addEventListener(type, fn)
+            } else {
+                window.attachEvent('on' + type, fn)
+            }
+        }
+
+        function getTiming() {
+            try {
+                var time = performance.timing;
+                var timingObj = {};
+
+                var loadTime = (time.loadEventEnd - time.loadEventStart) / 1000;
+
+                if(loadTime < 0) {
+                    setTimeout(function() {
+                        getTiming();
+                    }, 200);
+                    return;
+                }
+
+                timingObj['重定向时间'] = (time.redirectEnd - time.redirectStart) / 1000;
+                timingObj['DNS解析时间'] = (time.domainLookupEnd - time.domainLookupStart) / 1000;
+                timingObj['TCP完成握手时间'] = (time.connectEnd - time.connectStart) / 1000;
+                timingObj['HTTP请求响应完成时间'] = (time.responseEnd - time.requestStart) / 1000;
+                timingObj['DOM开始加载前所花费时间'] = (time.responseEnd - time.navigationStart) / 1000;
+                timingObj['DOM加载完成时间'] = (time.domComplete - time.domLoading) / 1000;
+                timingObj['DOM结构解析完成时间'] = (time.domInteractive - time.domLoading) / 1000;
+                timingObj['脚本加载时间'] = (time.domContentLoadedEventEnd - time.domContentLoadedEventStart) / 1000;
+                timingObj['onload事件时间'] = (time.loadEventEnd - time.loadEventStart) / 1000;
+                timingObj['页面完全加载时间'] = (timingObj['重定向时间'] + timingObj['DNS解析时间'] + timingObj['TCP完成握手时间'] + timingObj['HTTP请求响应完成时间'] + timingObj['DOM结构解析完成时间'] + timingObj['DOM加载完成时间']);
+
+                for(item in timingObj) {
+                    // console.log(item + ":" + timingObj[item] + '毫秒(ms)');
+                }
+
+                console.log(performance.timing);
+
+            } catch(e) {
+                console.log(timingObj)
+                console.log(performance.timing);
+            }
+        }
+    })();</script>
