@@ -1,0 +1,38 @@
+{
+  "code": 0,
+  "message": "操作成功 ！",
+  "data": {
+      "meta": {
+          "views": 11838,
+          "likes": 34,
+          "comments": 94
+      },
+      "keyword": [
+          "关于博主"
+      ],
+      "desc": "芳华正华始少年，时光正好，未来可期 ！技术为主，读书笔记、随笔、理财为辅，做个终身学习者。 ",
+      "numbers": "2172",
+      "img_url": "https://upload.jianshu.io/users/upload_avatars/5336648/390f8b4f-6fb6-4fb0-9efd-0a381a4b26d3.jpg",
+      "type": 3,
+      "state": 1,
+      "origin": 0,
+      "tags": [
+          {
+              "_id": "5bf01431bc1e7805eb83dba2",
+              "name": "关于博主",
+              "desc": "关于博主",
+              "create_time": "2018-11-17T13:14:25.660Z",
+              "update_time": "2018-11-17T13:14:25.660Z",
+              "id": 12,
+              "__v": 0
+          }
+      ],
+      "_id": "5bf01717bc1e7805eb83dbae",
+      "title": "关于博主 - 2018年年终总结",
+      "author": "biaochenxuying",
+      "content": "https://appppppen.github.io/articles/article2.md",
+      "create_time": "2018-11-17T13:26:47.053Z",
+      "update_time": "2018-11-17T13:26:47.053Z",
+      "id": 14
+  }
+}

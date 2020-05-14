@@ -1,10 +1,10 @@
-###新建Unity工程
+##新建Unity工程
 
 
 
-####unity泛型单例脚本
+##unity泛型单例脚本
 SingletonUnity.cs
-```
+```cs
 using UnityEngine;
 public class SingletonUnity<T> : MonoBehaviour where T : MonoBehaviour
 {	
@@ -23,9 +23,9 @@ public class SingletonUnity<T> : MonoBehaviour where T : MonoBehaviour
     }
 }
 ```
-####调用Java脚本
+##调用Java脚本
 MobPlugin .cs
-```
+```cs
 using UnityEngine;
 
 public class MobPlugin : SingletonUnity<MobPlugin>
@@ -64,7 +64,7 @@ public class MobPlugin : SingletonUnity<MobPlugin>
 ```
 ####测试脚本
 TestAndroid.cs
-```
+```cs
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -84,9 +84,9 @@ public class TestAndroid : MonoBehaviour {
 }
 ```
 
-####简易unity界面搭建
+##简易unity界面搭建
 ![QQ截图20181119155934.png](https://upload-images.jianshu.io/upload_images/5336648-4c9536e968c40ab9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-####unity导出设置
+##unity导出设置
 包名可以随意命名之后用不到该包名
 ![QQ截图20181119160236.png](https://upload-images.jianshu.io/upload_images/5336648-c84c313ec17ed5e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -112,7 +112,7 @@ public class TestAndroid : MonoBehaviour {
 #####settings.gradle中要包含unity模块
 ![QQ截图20181119154222.png](https://upload-images.jianshu.io/upload_images/5336648-fdb7d2ef8ef69953.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 #####在app模块添加依赖
-```
+```java
   implementation project(':unitylib')
 ```
 ![QQ截图20181119154340.png](https://upload-images.jianshu.io/upload_images/5336648-52280b6f66819ea9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -139,7 +139,7 @@ public class TestAndroid : MonoBehaviour {
 ![QQ截图20181119160847.png](https://upload-images.jianshu.io/upload_images/5336648-ffb070918f1846ba.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #####修改UnityPlayerActivity.java
-```
+```java
 package com.apen.unitylib;//package com.apen.uni;将之前的包名修改为库模块的包名
 
 import com.unity3d.player.*;
@@ -169,7 +169,7 @@ public class UnityPlayerActivity extends Activity
 }
 ```
 在app模块中继承UnityPlayerActivity并设置视图
-```
+```java
 package com.apen.unity;
 
 import android.os.Bundle;
@@ -218,7 +218,7 @@ public class UnityActivity extends WebActivity {
 
 视图xml
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -238,7 +238,7 @@ public class UnityActivity extends WebActivity {
 ```
 配置Android 清单文件
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.apen.unity"
