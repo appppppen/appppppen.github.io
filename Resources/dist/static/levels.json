@@ -1,0 +1,64 @@
+{
+    "page": [
+        {
+            "tip": "#FFCDD2",
+            "count": 11,
+            "colors":["#2196F3","#4CAF50","#1EFF00","#00FFFF","#AA00FF","#FF00D3"],
+            "lock": 0
+        },
+        {
+            "tip": "#F8BBD0",
+            "count": 20,
+            "colors":["#4CAF50","#FF5722","#1EFF00","#00FFFF","#AA00FF","#FF00D3"],
+            "lock": 1
+        },
+        {
+            "tip": "#E1BEE7",
+            "count": 30,
+            "colors":["#F4511E","#C2185B","#0288D1","#00FFFF","#AA00FF","#FF00D3"],
+            "lock": 1
+        },
+        {
+            "tip": "#D1C4E9",
+            "count": 40,
+            "colors":["#039BE5","#43A047","#FDD835","#FF5722","#AA00FF","#FF00D3"],
+            "lock": 1
+        },
+        {
+            "tip": "#C5CAE9",
+            "count": 50,
+            "colors":["#FF5722","#607D8B","#ef5350","#673AB7","#81D4FA","#FF00D3"],
+            "lock": 1
+        },
+        {
+            "tip": "#BBDEFB",
+            "count": 60,
+            "colors":["#81D4FA","#9C27B0","#d32f2f","#00FFFF","#AA00FF","#FF00D3"],
+            "lock": 1
+        },
+        {
+            "tip": "#B3E5FC",
+            "count": 70,
+            "colors":["#d32f2f","#00E676","#A5D6A7","#FFCCBC","#AA00FF","#FF00D3"],
+            "lock": 1
+        },
+        {
+            "tip": "#B2EBF2",
+            "count": 80,
+            "colors":["#ef5350","#7E57C2","#29B6F6","#66BB6A","#FFEE58","#FF7043"],
+            "lock": 1
+        },
+        {
+            "tip": "#B2DFDB",
+            "count": 90,
+            "colors":["#FF3D00","#C6FF00","#00E676","#00B0FF","#651FFF","#ff1744"],
+            "lock": 1
+        },
+        {
+            "tip": "#C8E6C9",
+            "count": 99,
+            "colors":["#FF7200","#FAFF00","#1EFF00","#00FFFF","#AA00FF","#FF00D3"],
+            "lock": 1
+        }
+    ]
+}
