@@ -1,0 +1,27 @@
+[
+  {
+    "routerLink": "/home",
+    "icon": "house",
+    "title": "Home"
+  },
+  {
+    "routerLink": "/project",
+    "icon": "work",
+    "title": "Project"
+  },
+  {
+    "routerLink": "/babylon",
+    "icon": "report",
+    "title": "BabylonJS"
+  },
+  {
+    "routerLink": "/blog",
+    "icon": "import_contacts",
+    "title": "Blog"
+  },
+  {
+    "routerLink": "/about",
+    "icon": "report",
+    "title": "About"
+  }
+]
