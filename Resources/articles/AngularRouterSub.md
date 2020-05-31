@@ -1,5 +1,3 @@
-# angular6 监听路由变化、获取路由名称
-
 ```typescript
 private router: Router,
 
